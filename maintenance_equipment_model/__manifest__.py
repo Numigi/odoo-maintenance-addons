@@ -9,7 +9,7 @@
     "website": "https://bit.ly/numigi-com",
     "license": "LGPL-3",
     "category": "Maintenance",
-    "summary": "",
+    "summary": "Add maintenance equipment model and compute equipment's name",
     "depends": [
         "base_maintenance_group",
     ],

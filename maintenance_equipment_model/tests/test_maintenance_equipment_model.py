@@ -1,7 +1,6 @@
-from odoo.tests import common, tagged
+from odoo.tests import common
 
 
-@tagged('post_install', '-at_install')
 class TestMaintenanceEquipmentModel(common.SavepointCase):
     def setUp(self):
         super(TestMaintenanceEquipmentModel, self).setUp()
