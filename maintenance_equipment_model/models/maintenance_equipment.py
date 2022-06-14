@@ -7,9 +7,16 @@ from odoo import api, fields, models
 class MaintenanceEquipment(models.Model):
     _inherit = "maintenance.equipment"
 
+    @api.multi
+    def name_get(self):
+        result = []
+        for record in self:
+            result.append((record.id, record.name))
+        return result
+
     model_id = fields.Many2one(
         "maintenance.equipment.model",
-        domain="['|',('manufacturer_id','=',partner_id),('manufacturer_id','=',False)]",
+        domain="[('manufacturer_id','=?',partner_id)]",
         required=True
     )
     name = fields.Char(compute="_compute_name", store=True, required=False)
