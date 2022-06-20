@@ -11,7 +11,7 @@
     'category': 'Other',
     'summary': 'Install all addons required for testing.',
     'depends': [
-
+        'maintenance_equipment_model',
     ],
     'installable': True,
 }
