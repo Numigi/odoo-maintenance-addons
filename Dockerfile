@@ -1,6 +1,8 @@
 FROM quay.io/numigi/odoo-public:12.0
 MAINTAINER numigi <contact@numigi.com>
 
+USER root
+
 ENV THIRD_PARTY_ADDONS /mnt/third-party-addons
 RUN mkdir -p "${THIRD_PARTY_ADDONS}" && chown -R odoo "${THIRD_PARTY_ADDONS}"
 COPY ./gitoo.yml /gitoo.yml
