@@ -1,0 +1,100 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* maintenance_equipment_model
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-10 10:54+0000\n"
+"PO-Revision-Date: 2022-06-10 10:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment__name
+msgid "Equipment Name"
+msgstr "Nom de l'équipement"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__id
+msgid "ID"
+msgstr "ID"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: maintenance_equipment_model
+#: model:ir.model,name:maintenance_equipment_model.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "Equipement de maintenance"
+
+#. module: maintenance_equipment_model
+#: model:ir.model,name:maintenance_equipment_model.model_maintenance_equipment_model
+msgid "Maintenance Equipment Model"
+msgstr "Modèle d'Equipement de maintenance"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__manufacturer_id
+msgid "Manufacturer"
+msgstr "Fabricant"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment__model_id
+msgid "Model"
+msgstr "Modèle"
+
+#. module: maintenance_equipment_model
+#: model:ir.actions.act_window,name:maintenance_equipment_model.action_maintenance_equipment_model
+#: model:ir.ui.menu,name:maintenance_equipment_model.menu_maintenance_equipment_model
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_model.view_maintenance_equipment_model_form
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_model.view_maintenance_equipment_model_tree
+msgid "Models"
+msgstr "Modèles"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment_model__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: maintenance_equipment_model
+#: model:ir.model.fields,field_description:maintenance_equipment_model.field_maintenance_equipment__partner_id
+msgid "Vendor"
+msgstr "Fournisseur"
+
