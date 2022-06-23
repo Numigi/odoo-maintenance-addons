@@ -1,2 +1,2 @@
 # odoo-maintenance-addons
-Odoo maintenance related addons
+Odoo maintenance related addons.
