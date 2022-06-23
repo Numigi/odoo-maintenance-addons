@@ -1,6 +1,6 @@
 Maintenance Equipment Model
 ===========================
-This module adds maintenance equipment model and compute name of maintenance equipment base on vendor, model and serial number
+This module adds maintenance equipment model and compute name of maintenance equipment base on vendor, model and serial number.
 
 New model: Maintenance Equipment Model
 
