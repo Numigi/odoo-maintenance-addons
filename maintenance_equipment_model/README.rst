@@ -6,7 +6,7 @@ New model: Maintenance Equipment Model
 
 .. image:: static/description/maintenance_equipment_model.png
 
-Make vendor and model required fields and compute maintenance equipment's name base on vendor, model and serial number
+Make vendor and model required fields and compute maintenance equipment's name base on vendor, model and serial number.
 
 .. image:: static/description/maintenance_equipment_name.png
 
