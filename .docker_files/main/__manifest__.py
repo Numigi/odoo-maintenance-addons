@@ -12,6 +12,7 @@
     'summary': 'Install all addons required for testing.',
     'depends': [
         'maintenance_equipment_model',
+        'maintenance_sale_service',
     ],
     'installable': True,
 }
