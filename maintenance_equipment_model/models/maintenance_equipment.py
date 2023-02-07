@@ -7,7 +7,6 @@ from odoo import api, fields, models
 class MaintenanceEquipment(models.Model):
     _inherit = "maintenance.equipment"
 
-    @api.multi
     def name_get(self):
         result = []
         for record in self:

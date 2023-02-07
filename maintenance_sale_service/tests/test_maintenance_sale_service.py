@@ -35,7 +35,7 @@ class TestMaintenanceSaleService(common.SavepointCase):
         return self.env["product.product"].create({
                 "name": "Service Product",
                 "type": "service",
-                "service_tracking": "task_new_project",
+                "service_tracking": "task_in_project",
             })
 
     def _create_sale_order(self):
