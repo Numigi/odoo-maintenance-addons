@@ -32,24 +32,20 @@ class TestMaintenanceSaleService(common.SavepointCase):
         )
 
     def _create_service_product_task_new_project(self):
-        return self.env["product.product"].create(
-            {
+        return self.env["product.product"].create({
                 "name": "Service Product",
                 "type": "service",
                 "service_tracking": "task_new_project",
-            }
-        )
+            })
 
     def _create_sale_order(self):
         return self.env["sale.order"].create({"partner_id": self.partner.id})
 
     def _create_sale_order_line(self, sale_order, product, equipment):
-        return self.env["sale.order.line"].create(
-            {
+        return self.env["sale.order.line"].create({
                 "order_id": sale_order.id,
                 "product_id": product.id,
                 "equipment_id": equipment and equipment.id or False,
                 "product_uom_qty": 1,
                 "name": "line",
-            }
-        )
+            })
