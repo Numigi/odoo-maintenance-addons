@@ -18,7 +18,7 @@ class MaintenanceEquipment(models.Model):
         domain="[('manufacturer_id','=?',partner_id)]",
         required=True
     )
-    name = fields.Char(compute="_compute_name", store=True, required=False)
+    name = fields.Char(compute="_compute_name", store=True, required=False, transtale=False)
     partner_id = fields.Many2one(required=True)
 
     @api.depends("partner_id", "model_id", "serial_no")
