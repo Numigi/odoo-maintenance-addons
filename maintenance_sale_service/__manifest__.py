@@ -9,7 +9,10 @@
     "website": "https://bit.ly/numigi-com",
     "license": "LGPL-3",
     "category": "Sales",
-    "summary": "Propagation of Equipment from the sale order line to the task when the sales line creates a task",
+    "summary": """
+        Propagation of Equipment from the sale order line to
+        the task when the sales line creates a task.
+    """,
     "depends": [
         "maintenance_equipment_model",
         "sale_timesheet",
