@@ -1,4 +1,4 @@
-FROM quay.io/numigi/odoo-public:14.latest
+FROM quay.io/numigi/odoo-public:16.latest
 LABEL maintainer="contact@numigi.com"
 
 USER root
@@ -9,9 +9,6 @@ COPY ./gitoo.yml /gitoo.yml
 RUN gitoo install-all --conf_file /gitoo.yml --destination "${THIRD_PARTY_ADDONS}"
 
 USER odoo
-
-COPY maintenance_equipment_model /mnt/extra-addons/maintenance_equipment_model
-COPY maintenance_sale_service /mnt/extra-addons/maintenance_sale_service
 
 COPY .docker_files/main /mnt/extra-addons/main
 COPY .docker_files/odoo.conf /etc/odoo

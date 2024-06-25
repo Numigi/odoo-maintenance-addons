@@ -1,4 +1,4 @@
 - url: https://github.com/OCA/maintenance
-  branch: "14.0"
+  branch: "16.0"
   includes:
     - base_maintenance_group
